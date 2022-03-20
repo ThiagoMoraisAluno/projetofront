@@ -22,6 +22,8 @@
           font-size: 3.5rem;
         }
       }
+
+      
     </style>
     
     <link rel="stylesheet" href="../css/user.css">
@@ -125,83 +127,111 @@
                 <form class="needs-validation" novalidate>
                   <div class="row g-3">
 
-                    <div class="col-6">
-                        <label for="address" class="form-label">CEP *</label>
-                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                    <div class="col-md-6">
+                        <label for="zip" class="form-label">CEP *</label>
+                        <input type="text" class="form-control" id="zip" placeholder="00000-000" required>
                         <div class="invalid-feedback">
                           Please enter your shipping address.
                         </div>
                     </div>
         
-                    <div class="col-6">
-                      <label for="address" class="form-label">Logradouro</label>
-                      <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                    <div class="col-md-6">
+                      <label for="address" class="form-label">Logradouro *</label>
+                      <input type="text" class="form-control" id="address" placeholder="Ex: Rua Correia de Lemos" required>
                       <div class="invalid-feedback">
                         Please enter your shipping address.
                       </div>
                     </div>
 
-                    <div class="col-6">
-                        <label for="address" class="form-label">Bairro</label>
-                        <input type="text" class="form-control" id="address" placeholder="Bairro" required>
-                        <div class="invalid-feedback">
-                          Please enter your shipping address.
-                        </div>
-                    </div>
-
-                    <div class="col-6">
-                        <label for="address" class="form-label">Número</label>
-                        <input type="text" class="form-control" id="address" placeholder="Caixa postal, apartamento" required>
-                        <div class="invalid-feedback">
-                          Please enter your shipping address.
-                        </div>
-                    </div>
-
-                    <div class="col-6">
-                        <label for="address" class="form-label">Complemento</label>
-                        <input type="text" class="form-control" id="address" placeholder="Caixa postal, apartamento" required>
-                        <div class="invalid-feedback">
-                          Please enter your shipping address.
-                        </div>
-                    </div>
-        
-                    <div class="col-6">
-                      <label for="address2" class="form-label">Cidade</label>
-                      <input type="text" class="form-control" id="address2" placeholder="Cidade">
-                    </div>
-
-                    <div class="col-6">
-                        <label for="state" class="form-label">UF</label>
-                        <select class="form-select" id="state" required>
-                          <option value="">Choose...</option>
-                          <option>California</option>
-                        </select>
-                        <div class="invalid-feedback">
-                          Please provide a valid state.
-                        </div>
-                      </div>
-
-                    <div class="col-6">
-                        <label for="address" class="form-label">Número</label>
-                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
-                        <div class="invalid-feedback">
-                          Please enter your shipping address.
-                        </div>
-                      </div>
-        
                     
+                    <div class="col-md-6">
+                        <label for="number" class="form-label">Número *</label>
+                        <input type="text" class="form-control" id="number" placeholder="Número" required>
+                        <div class="invalid-feedback">
+                          Digite um número válido
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="complement" class="form-label">Complemento</label>
+                        <input type="text" class="form-control" id="complement" placeholder="Apto 3, terceiro andar">
+                        <div class="invalid-feedback">
+                          Please enter your shipping address.
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="reference" class="form-label">Referência</label>
+                        <input type="text" class="form-control" id="reference" placeholder="Ao lado da padaria">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="neighborhood" class="form-label">Bairro *</label>
+                      <input type="text" class="form-control" id="neighborhood" placeholder="Bairro" required>
+                      <div class="invalid-feedback">
+                        Digite um bairro válido
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                      <label for="city" class="form-label">Cidade *</label>
+                      <input type="text" class="form-control" id="city" placeholder="Cidade" required>
+                      <div class="invalid-feedback">
+                        Cidade inválida
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">UF</label>
+                      <select class="form-select" id="state" required>
+                        <option value="">Escolha uma UF</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Selecione um estado
+                      </div>
+                    </div>
+
+
                   </div>
         
-                  <div class="form-check mt-3">
-                    <input type="checkbox" class="form-check-input" id="same-address">
-                    <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+                  <div class="form-check mt-3 mb-3">
+                    <input type="checkbox" class="form-check-input" id="default-address">
+                    <label class="form-check-label" for="default-address">Tornar esse o meu endereço padrão</label>
                   </div>
         
-                  <div class="form-check mb-3">
-                    <input type="checkbox" class="form-check-input" id="save-info">
-                    <label class="form-check-label" for="save-info">Save this information for next time</label>
-                  </div>
-                  <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                  
+                  <button class="w-100 btn btn-warning btn-lg" type="submit">Salvar endereço <span data-feather="arrow-right"></span></button>
+                
                 </form>
               </div>
           </main>

@@ -8,6 +8,11 @@ body {
     vertical-align: text-bottom;
   }
   
+  button .feather {
+    width: 16px;
+    height: 16px;
+    vertical-align:middle;
+  }
   /*
    * Sidebar
    */
@@ -97,4 +102,36 @@ body {
   .form-control-dark:focus {
     border-color: transparent;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  }
+
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    background-color: transparent;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .form-control:focus {
+    color: #212529;
+    border-color: #ffc107;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  .form-select {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    background-color: transparent;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .form-select:focus {
+    color: #212529;
+    border-color: #ffc107;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: none;
   }
