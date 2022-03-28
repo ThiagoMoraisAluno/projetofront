@@ -44,6 +44,10 @@ button {
   color: #fff !important;
 }
 
+.card {
+	border-color: transparent;
+}
+
 
 /*
    * Sidebar
