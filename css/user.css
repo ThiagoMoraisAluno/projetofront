@@ -203,7 +203,7 @@ button {
 }
 
 .hori-timeline .events {
-	border-top: 3px solid #e9ecef;
+	border-top: 3px solid rgb(33, 37, 41);
 }
 
 .hori-timeline .events .event-list {
@@ -218,7 +218,7 @@ button {
 	content: "";
 	position: absolute;
 	height: 36px;
-	border-right: 2px dashed #dee2e6;
+	border-right: 2px dashed rgb(33, 37, 41);
 	top: 0;
 }
 
@@ -274,4 +274,36 @@ button {
 	font-size: 1.25rem;
 	font-weight: 500;
 	margin-bottom: 0.5rem;
+}
+
+/** Products */
+.page-link {
+	color: #ffc107;
+}
+
+/*
+ * FilePond Custom Styles
+ */
+
+ .filepond--drop-label {
+	color: #4c4e53;
+}
+
+.filepond--label-action {
+	text-decoration-color: #babdc0;
+}
+
+.filepond--panel-root {
+	background-color: #edf0f4;
+}
+
+
+/**
+ * Page Styles
+ */
+
+
+.filepond--root {
+	width:170px;
+	margin: 0 auto;
 }
