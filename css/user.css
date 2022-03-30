@@ -2,7 +2,8 @@
 body {
 	font-size: .875rem;
 	font-family: 'Poppins', sans-serif;
-  background-color: rgb(242, 243, 244);
+  	background-color: rgb(242, 243, 244);
+	  
 }
 
 h4 {
@@ -14,6 +15,15 @@ p b {
 	margin-right: 7px;
 }
 
+#footer {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+#footer .link-light {
+	color: #6c757d;
+}
 
 /** Nav */
 
@@ -281,29 +291,7 @@ button {
 	color: #ffc107;
 }
 
-/*
- * FilePond Custom Styles
- */
-
- .filepond--drop-label {
-	color: #4c4e53;
+.input-images {
+	cursor: pointer;
 }
 
-.filepond--label-action {
-	text-decoration-color: #babdc0;
-}
-
-.filepond--panel-root {
-	background-color: #edf0f4;
-}
-
-
-/**
- * Page Styles
- */
-
-
-.filepond--root {
-	width:170px;
-	margin: 0 auto;
-}
